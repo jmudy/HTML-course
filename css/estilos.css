@@ -1,0 +1,50 @@
+@import url(otrosEstilos.css);
+h2{color:darkorange;}
+p{color:deeppink}
+
+/* comentario css */
+
+/*
+Selectores
+
+- Selector Universal -> *
+- Tipo ó de etiqueta -> p
+- Class -> .algo
+- Id -> #algo
+- Pseudo-Clases -> :link, :visited, :active, :hover
+- De atributo -> {href]
+
+*/
+
+
+/* SELECTOR UNIVERSAL -> * */
+*{font-family:arial;}
+
+/*SELECTOR TIPO O ETIQUETA*/
+
+
+span {color: darkgreen;}
+
+/*SELECTOR TIPO O ETIQUETA*/
+
+span.subrayado {text-decoration: underline;}
+
+
+/*SELECTOR ID*/
+
+/*
+Especificando que solo se puede aplicar
+a títulos de tipo h3
+*/
+h3#mayusculas {text-transform: uppercase;}
+
+
+/* SELECTORES PSEUDO-CLASS */
+a:link {color: aquamarine} /* Link NO VISITADO */
+a:visited {color: coral} /* Link que ya se ha visitado */ 
+a:hover {font-weight: bold; text-decoration: none} /* Cursor sobre el link */ 
+a:active {color: brown} /* Link presionado o al dar click */ 
+
+/* SELECTOR DE ATRIBUTO */
+img[title]{width: 200px; height: auto;} /* Se aplica a todos los elementos con el atributo específico */
+img[alt="Gatito"]{width: 400px; height: auto} /* Se aplica a todos los elementos con el atributo específico y un valor específico */
